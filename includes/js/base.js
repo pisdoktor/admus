@@ -670,7 +670,7 @@ if ( browser.chrome ) {
 
 jQuery.browser = browser;
 
-//***Tagged JS***//
+//***Taggd JS***//
 /*!
  * jQuery Taggd
  * A helpful plugin that helps you adding 'tags' on images.

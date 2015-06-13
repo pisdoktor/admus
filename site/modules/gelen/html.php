@@ -27,7 +27,7 @@ class Liste {
 	
 	var data = [];
 	
-	var taggd = $('.taggd').taggd( options, data );
+	var taggd = $('.etiket').taggd( options, data );
 	
 	taggd.on('change', function() {
 		console.log(taggd.data);
@@ -78,7 +78,7 @@ class Liste {
 		</tr>
 		<tr>
 		<td colspan="2" align="center">
-		<img src="<?php echo SITEURL;?>/images/interactiveBody_<?php echo $row->gonderilencinsiyeti;?>.png"  class="taggd" alt="" />
+		<img src="<?php echo SITEURL;?>/images/interactiveBody_<?php echo $row->gonderilencinsiyeti;?>.png"  class="etiket" alt="" />
 		</td>
 		</tr>
 		<tr>

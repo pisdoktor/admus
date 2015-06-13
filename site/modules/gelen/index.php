@@ -14,10 +14,6 @@ switch ($task) {
 	case 'edit':
 	formDuzenle($id);
 	break;
-	
-	case 'diagram':
-	bodyDiagram($id);
-	break;
 		
 	case 'cancel':
 	cancelForm();
@@ -26,11 +22,6 @@ switch ($task) {
 	case 'save':
 	saveForm();
 	break;
-}
-function bodyDiagram($id) {
-	global $dbase;
-	
-	
 }
 
 function cancelForm() {
